@@ -1,11 +1,19 @@
+
+/*Grid Styles*/
 .main-container {
     background-color: #efefef;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 20vw auto;
 }
 
 .section-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     background-color: white;
+    height: 100vh;
+}
+
+/*Design Styles*/
+body{
+    margin: 0;
 }
