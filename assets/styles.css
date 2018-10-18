@@ -1,7 +1,6 @@
 
 /*Grid Styles*/
-.main-container {
-    background-color: #efefef;
+.body-container {
     display: grid;
     grid-template-columns: 20vw auto;
 }
@@ -22,4 +21,40 @@
 /*Design Styles*/
 body{
     margin: 0;
+}
+
+.aside {
+    background-color: lightgray;
+}
+
+.aside__list {
+    list-style: none;
+}
+
+.aside ul {
+    display: block;
+    width: 100%;
+}
+
+.aside li {
+    padding: 0.5rem 0;
+}
+
+.aside ul li a {
+    text-decoration: none;
+    color: green;
+    font-size: 1.25rem;
+}
+
+.aside ul li a:hover {
+    color: white;
+}
+
+.section--padding {
+    padding: 2rem;
+}
+
+.section--text {
+    color: #084c61;
+    line-height: 1.5rem;
 }
