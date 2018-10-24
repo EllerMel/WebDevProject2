@@ -23,6 +23,10 @@ body{
     margin: 0;
 }
 
+.header {
+    font-size: 3rem;
+}
+
 .aside {
     background-color: lightgray;
 }
@@ -117,4 +121,8 @@ body{
     Color: black ;
     font-size: 1.25rem;
     font-family: 'Raleway', sans-serif
+}
+
+.section--text_rotate {
+    transform: rotate(15deg);
 }
