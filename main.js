@@ -1,3 +1,13 @@
+var counter = 0,
+    gallery = ["assets/Images/CompCat.jpg", "assets/Images/CompCat2.jpg", "assets/Images/CompCat3.jpg"],
+    rotateGallery = function () {
+        document.getElementById('homeCat').src = gallery[counter];
+        counter++;
+        if (counter >= gallery.length) {
+            counter = 0;
+        }
+    };
+
 var image = document.getElementById('whoCat').addEventListener('click', changeImage);
 
 // function changeImage(){
