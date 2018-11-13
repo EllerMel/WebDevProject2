@@ -1,3 +1,11 @@
+function person(){
+    var person = prompt("Please enter your name", "");
+    if (person != null) {
+        document.getElementById("Greeting").innerHTML =
+        "Welcome" + " " + person + "!";
+    }    
+};
+
 var counter = 0,
     gallery = ["assets/Images/CompCat.jpg", "assets/Images/CompCat2.jpg", "assets/Images/CompCat3.jpg"],
     rotateGallery = function () {
